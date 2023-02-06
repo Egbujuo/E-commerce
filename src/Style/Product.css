@@ -1,0 +1,30 @@
+/* .page{
+  border: 1px solid black;
+  width: 90%;
+  max-width: 500px;
+  /* margin: 0 auto;
+  background-color: black;
+  color: #fff; */
+
+.products img{
+  width: 30%;
+
+}
+.products{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.product{
+border-radius:8px ;
+background-color: beige;
+}
+@media (min-width: 600px) {
+   .products{
+    grid-template-columns: 1fr 1fr;
+
+   }
+    
+}

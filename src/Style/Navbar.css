@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;  
+    position: fixed;
+    right: 0;
+    left: 0; 
+}
+.navbar .cart{
+    text-decoration: none;
+    background-color: beige;
+    color: black;
+}
+.navbar .link{
+    text-decoration: none;
+    
+    color: black;
+}
+.navbar .cart:hover{
+    border: 1px solid bisque;
+    background-color: #fff;
+    color: black;
+}
